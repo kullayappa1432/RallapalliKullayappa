@@ -1,0 +1,335 @@
+body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 1rem 3rem;
+      border-bottom: 2px solid red;
+     
+    }
+
+    .navbar-brand span {
+      color: greenyellow;
+      font-style: italic;
+    }
+
+    .navbar-nav a {
+      color: white;
+      font-weight: 500;
+      margin-right: 1rem;
+      transition: color 0.3s;
+    }
+
+    .navbar-nav a:hover {
+      color: red;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .hero .intro {
+      max-width: 600px;
+    }
+
+    .hero h1 span {
+      color: blue;
+      text-shadow: 2px 2px 4px rgb(35, 216, 125);
+    }
+
+    .code-box {
+      background-color: #111;
+      border-left: 5px solid red;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
+      color: #ddd;
+    }
+
+    .highlight {
+      color: red;
+      text-shadow: 1px 1px 2px blue;
+    }
+
+    .hero img {
+      border-radius: 15px;
+      max-width: 300px;
+      height: auto;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    .About_me {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+      background-color: black;
+      height: 600px;
+    }
+
+    .About_me div {
+      width: 40%;
+      padding: 2px;
+    }
+
+    .skills {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+      background-color: black;
+      height: 600px;
+    }
+
+    .skills div {
+      width: 30%;
+      min-height: 350px;
+      padding: 10px;
+      background-color: rgb(61, 52, 52);
+      border-radius: 2%;
+      margin: 10px;
+    }
+
+    .skills div img {
+      border-radius: 2%;
+      width: 100%;
+      height: auto;
+    }
+
+    .education-con {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+      background-color: black;
+      height: 500px;
+    }
+
+    .education-con div {
+      width: 30%;
+      min-height: 300px;
+      padding: 10px;
+      border-radius: 2%;
+      margin: 10px;
+    }
+
+    #family {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    #family div {
+      width: 40%;
+      margin: auto;
+    }
+    .education-con {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  background-color: #111;
+  gap: 1rem;
+}
+
+.education-con div {
+  background-color: #1c1c1c;
+  color: #eee;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 30%;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #444;
+}
+
+.education-con div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.education-con h2 {
+  color: #f0db4f;
+  border-bottom: 2px solid #f0db4f;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.education-con h3 {
+  color: #4ecdc4;
+  margin-bottom: 0.5rem;
+}
+
+.education-con h6 {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.education-con label {
+  display: block;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+
+#family {
+  background-color: #1b1b1b;
+  color: #eee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+#family div {
+  max-width: 700px;
+  margin: 1rem auto;
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#family h1 {
+  color: #f67280;
+  margin-bottom: 1rem;
+}
+
+#Internship-1{
+   background-color: #1b1b1b;
+  color: #eee;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+#Internship-1 div {
+  max-width: 700px;
+  margin: 1rem auto;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(33, 3, 201);
+  border: 1px solid #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+#Internship-1 h3 {
+   color: #f0db4f;
+text-shadow: 2px 3px 2px rgb(168, 127, 127);
+  margin-bottom: 1rem;
+}
+#Internship-2{
+   background-color: #1b1b1b;
+  color: #eee;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+#Internship-2 div {
+  max-width: 700px;
+  margin: 1rem auto;
+  background-color: #222;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(33, 3, 201);
+  border: 1px solid #444;
+  line-height: 1.6;
+}
+#Internship-2 h3 {
+color: #f0db4f;
+  text-shadow: 2px 3px 2px rgb(168, 127, 127);
+  margin-bottom: 1rem;
+}
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .navbar-nav {
+        flex-direction: column !important;
+        align-items: center;
+      }
+
+      .navbar-nav a {
+        margin: 5px 0;
+      }
+
+      .hero {
+        
+        flex-direction: column;
+    
+      }
+      .hero div{
+        width: auto;
+      }
+
+      .hero img {
+        margin-top: 2rem;
+        max-width: 90%;
+      }
+
+      .About_me {
+        flex-direction: column;
+  height: auto;
+        padding: 1rem;
+      }
+
+      .About_me div {
+        width: 90%;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      .skills {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+      }
+
+      .skills div {
+        width: 90%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+
+      .education-con {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+      }
+
+      .education-con div {
+        width: 90%;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+
+      #family div {
+        width: 90%;
+        padding: 1rem;
+      }
+        #Internship-1 div {
+        width: 90%;
+        padding: 1rem;
+      }
+       #Internship-2 div {
+        width: 90%;
+        padding: 1rem;
+      }
+    }
